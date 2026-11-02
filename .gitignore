@@ -1,0 +1,21 @@
+# Bỏ qua các file môi trường ảo của Python
+venv/
+env/
+.venv/
+
+# Bỏ qua các file biên dịch tự động của Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bỏ qua file chứa biến môi trường (mật khẩu, key)
+.env
+
+# Bỏ qua thư mục chứa file tải lên (nếu có sau này)
+uploads/
+media/
+static/
+
+# Bỏ qua database cục bộ (nếu dùng SQLite)
+*.sqlite3
+db.sqlite3
